@@ -17,7 +17,9 @@ export const styles = StyleSheet.create({
         borderRadius: 10,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#87BEF9'
+        backgroundColor: '#87BEF9',
+        position: 'absolute',
+        bottom: 16
     },
 
     textButton:{
@@ -27,7 +29,7 @@ export const styles = StyleSheet.create({
     }, 
 
     animation:{
-        maxWidth: '100%'
+        width: '100%'
     }, 
 
     header: {
@@ -37,5 +39,21 @@ export const styles = StyleSheet.create({
         padding: 20,
         justifyContent: 'space-between', 
         flexDirection: "row"
+    },
+
+    animationButton:{
+        width: 100,
+        height: 100,
+        borderWidth: 2
+        // margin: 15
+    }, 
+
+    content: {
+        maxHeight: '20%',
+        width: '90%',
+        display: "flex",
+        flexDirection: "row",
+        flexWrap: "wrap",
+        // margin: 5
     }
 })
